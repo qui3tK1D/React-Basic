@@ -1,0 +1,30 @@
+.new-expense {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense button {
+  font: inherit;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: #fff;
+  color: #333;
+}
+
+.new-expense button:focus,
+.new-expense button:hover {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.showFormBtn {
+  margin: 2rem 0;
+}

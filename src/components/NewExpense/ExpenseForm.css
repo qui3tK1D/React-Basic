@@ -1,0 +1,44 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  border-radius: 1rem;
+  padding: 1.8rem 2.5rem;
+  color: #333;
+}
+
+.new-expense__control label {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.6rem;
+  display: inline-block;
+}
+
+.new-expense__control input {
+  display: block;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: inherit;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+  padding: 10px 10px;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+  width: 200px;
+}
+
+.new-expense__control input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.new-expense__actions {
+  margin-left: auto;
+  margin-top: 2rem;
+}
+
+.new-expense__actions button:first-child {
+  margin-right: 1rem;
+}
